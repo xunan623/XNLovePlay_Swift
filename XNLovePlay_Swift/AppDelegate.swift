@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow.init()
         window?.bounds = UIScreen.main.bounds
         window?.backgroundColor = UIColor.white
-        window?.rootViewController = UIViewController()
+        window?.rootViewController = XNTabBarController()
         window?.makeKeyAndVisible()
         
         return true
