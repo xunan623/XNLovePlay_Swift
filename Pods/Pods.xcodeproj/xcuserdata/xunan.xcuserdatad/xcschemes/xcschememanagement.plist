@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-XNLovePlay_Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1DE93A359FA21F91DFBE81309E851A4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29DD99664D189A7CA206368F493B1E0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5620674851C0114D42067E47CEF5DFC</key>
+		<key>EA9F9B67C4810C1B8F9EA35312B28DC1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

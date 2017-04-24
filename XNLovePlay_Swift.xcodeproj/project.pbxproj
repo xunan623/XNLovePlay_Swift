@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710B480F1EA05F7D0000D42D /* XNNewsVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B480E1EA05F7D0000D42D /* XNNewsVCCell.swift */; };
+		710B48121EA06DE00000D42D /* XNHeadlineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B48111EA06DE00000D42D /* XNHeadlineController.swift */; };
+		710B48141EA06DEF0000D42D /* XNNetGaemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B48131EA06DEF0000D42D /* XNNetGaemController.swift */; };
+		710B48161EA06DFC0000D42D /* XNHandGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B48151EA06DFC0000D42D /* XNHandGameController.swift */; };
+		710B48181EA06E0B0000D42D /* XNMechineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B48171EA06E0B0000D42D /* XNMechineController.swift */; };
+		710B481A1EA06E1E0000D42D /* XNECController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B48191EA06E1E0000D42D /* XNECController.swift */; };
+		710B481C1EA06E2A0000D42D /* XNStormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B481B1EA06E2A0000D42D /* XNStormController.swift */; };
 		71193AC41E9DB9720026D228 /* comon_refresh_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71193A671E9DB9720026D228 /* comon_refresh_button@2x.png */; };
 		71193AC51E9DB9720026D228 /* comon_refresh_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71193A681E9DB9720026D228 /* comon_refresh_button@3x.png */; };
 		71193AC61E9DB9720026D228 /* loading_step1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71193A6A1E9DB9720026D228 /* loading_step1@2x.png */; };
@@ -80,13 +87,35 @@
 		71193B2E1E9E02400026D228 /* XNCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B2D1E9E02400026D228 /* XNCommon.swift */; };
 		71193B301E9E090E0026D228 /* XNNewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B2F1E9E090E0026D228 /* XNNewsDetailController.swift */; };
 		71193B321E9E0BBD0026D228 /* XNNewsTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B311E9E0BBD0026D228 /* XNNewsTopView.swift */; };
+		71193B3B1E9E20FA0026D228 /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B331E9E20FA0026D228 /* CommonTool.swift */; };
+		71193B3C1E9E20FA0026D228 /* const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B341E9E20FA0026D228 /* const.swift */; };
+		71193B3D1E9E20FA0026D228 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B351E9E20FA0026D228 /* Date+Extension.swift */; };
+		71193B3F1E9E20FA0026D228 /* UIColor+imageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B371E9E20FA0026D228 /* UIColor+imageColor.swift */; };
+		71193B401E9E20FA0026D228 /* UITableView+GifRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B381E9E20FA0026D228 /* UITableView+GifRefreshHeader.swift */; };
+		71193B411E9E20FA0026D228 /* UIView+ViewFrameGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B391E9E20FA0026D228 /* UIView+ViewFrameGeometry.swift */; };
+		71193B421E9E20FA0026D228 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B3A1E9E20FA0026D228 /* UIViewController+Extension.swift */; };
+		71193B4A1E9E2AC60026D228 /* XNBaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71193B491E9E2AC60026D228 /* XNBaseVM.swift */; };
+		714690091EAD9CE100118B87 /* XNBaseDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714690081EAD9CE100118B87 /* XNBaseDetailVC.swift */; };
+		7146900B1EAD9CFD00118B87 /* XNDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7146900A1EAD9CFD00118B87 /* XNDetailController.swift */; };
 		7175F4D51E9CD67F0072C285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175F4D41E9CD67F0072C285 /* AppDelegate.swift */; };
+		71856E141EA0ADC70079FBD5 /* XNNewsBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71856E131EA0ADC70079FBD5 /* XNNewsBaseController.swift */; };
+		71856E161EA0B3060079FBD5 /* XNNewsCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71856E151EA0B3060079FBD5 /* XNNewsCell_1.swift */; };
+		71856E181EA0B3110079FBD5 /* XNNewsCell_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71856E171EA0B3110079FBD5 /* XNNewsCell_2.swift */; };
+		71856E1A1EA0B37C0079FBD5 /* XNBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71856E191EA0B37C0079FBD5 /* XNBaseModel.swift */; };
+		71856E1C1EA0B38E0079FBD5 /* XNNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71856E1B1EA0B38E0079FBD5 /* XNNewsModel.swift */; };
 		C85074CC12CFAF757167901F /* Pods_XNLovePlay_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E114ED2E3ED12319CBD7D01C /* Pods_XNLovePlay_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AFA93E97E9869F60C27D8A8 /* Pods-XNLovePlay_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLovePlay_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-XNLovePlay_Swift/Pods-XNLovePlay_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		36F888C6B2CB65451008F1D8 /* Pods-XNLovePlay_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLovePlay_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XNLovePlay_Swift/Pods-XNLovePlay_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		710B480E1EA05F7D0000D42D /* XNNewsVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNewsVCCell.swift; sourceTree = "<group>"; };
+		710B48111EA06DE00000D42D /* XNHeadlineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNHeadlineController.swift; sourceTree = "<group>"; };
+		710B48131EA06DEF0000D42D /* XNNetGaemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNetGaemController.swift; sourceTree = "<group>"; };
+		710B48151EA06DFC0000D42D /* XNHandGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNHandGameController.swift; sourceTree = "<group>"; };
+		710B48171EA06E0B0000D42D /* XNMechineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNMechineController.swift; sourceTree = "<group>"; };
+		710B48191EA06E1E0000D42D /* XNECController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNECController.swift; sourceTree = "<group>"; };
+		710B481B1EA06E2A0000D42D /* XNStormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNStormController.swift; sourceTree = "<group>"; };
 		71193A671E9DB9720026D228 /* comon_refresh_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comon_refresh_button@2x.png"; sourceTree = "<group>"; };
 		71193A681E9DB9720026D228 /* comon_refresh_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comon_refresh_button@3x.png"; sourceTree = "<group>"; };
 		71193A6A1E9DB9720026D228 /* loading_step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_step1@2x.png"; sourceTree = "<group>"; };
@@ -160,9 +189,24 @@
 		71193B2D1E9E02400026D228 /* XNCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNCommon.swift; sourceTree = "<group>"; };
 		71193B2F1E9E090E0026D228 /* XNNewsDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNewsDetailController.swift; sourceTree = "<group>"; };
 		71193B311E9E0BBD0026D228 /* XNNewsTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNewsTopView.swift; sourceTree = "<group>"; };
+		71193B331E9E20FA0026D228 /* CommonTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTool.swift; sourceTree = "<group>"; };
+		71193B341E9E20FA0026D228 /* const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
+		71193B351E9E20FA0026D228 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		71193B371E9E20FA0026D228 /* UIColor+imageColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+imageColor.swift"; sourceTree = "<group>"; };
+		71193B381E9E20FA0026D228 /* UITableView+GifRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+GifRefreshHeader.swift"; sourceTree = "<group>"; };
+		71193B391E9E20FA0026D228 /* UIView+ViewFrameGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ViewFrameGeometry.swift"; sourceTree = "<group>"; };
+		71193B3A1E9E20FA0026D228 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		71193B491E9E2AC60026D228 /* XNBaseVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNBaseVM.swift; sourceTree = "<group>"; };
+		714690081EAD9CE100118B87 /* XNBaseDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNBaseDetailVC.swift; sourceTree = "<group>"; };
+		7146900A1EAD9CFD00118B87 /* XNDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNDetailController.swift; sourceTree = "<group>"; };
 		7175F4D11E9CD67F0072C285 /* XNLovePlay_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XNLovePlay_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7175F4D41E9CD67F0072C285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7175F4E01E9CD67F0072C285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71856E131EA0ADC70079FBD5 /* XNNewsBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNewsBaseController.swift; sourceTree = "<group>"; };
+		71856E151EA0B3060079FBD5 /* XNNewsCell_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNewsCell_1.swift; sourceTree = "<group>"; };
+		71856E171EA0B3110079FBD5 /* XNNewsCell_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNewsCell_2.swift; sourceTree = "<group>"; };
+		71856E191EA0B37C0079FBD5 /* XNBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNBaseModel.swift; sourceTree = "<group>"; };
+		71856E1B1EA0B38E0079FBD5 /* XNNewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XNNewsModel.swift; sourceTree = "<group>"; };
 		E114ED2E3ED12319CBD7D01C /* Pods_XNLovePlay_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XNLovePlay_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,6 +237,20 @@
 				2AFA93E97E9869F60C27D8A8 /* Pods-XNLovePlay_Swift.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		710B48101EA065770000D42D /* ChildVC */ = {
+			isa = PBXGroup;
+			children = (
+				710B48111EA06DE00000D42D /* XNHeadlineController.swift */,
+				710B48131EA06DEF0000D42D /* XNNetGaemController.swift */,
+				710B48151EA06DFC0000D42D /* XNHandGameController.swift */,
+				710B48171EA06E0B0000D42D /* XNMechineController.swift */,
+				710B48191EA06E1E0000D42D /* XNECController.swift */,
+				710B481B1EA06E2A0000D42D /* XNStormController.swift */,
+				71856E131EA0ADC70079FBD5 /* XNNewsBaseController.swift */,
+			);
+			path = ChildVC;
 			sourceTree = "<group>";
 		};
 		71193A631E9DB9720026D228 /* Resource */ = {
@@ -553,6 +611,7 @@
 		71193B001E9DBB560026D228 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				71193B481E9E2AB40026D228 /* ViewModel */,
 				71193B011E9DBB560026D228 /* Controller */,
 				71193B021E9DBB560026D228 /* Model */,
 				71193B031E9DBB560026D228 /* View */,
@@ -566,6 +625,8 @@
 				71193B091E9DC7A40026D228 /* XNTabBarController.swift */,
 				71193B111E9DF6240026D228 /* XNNavigationController.swift */,
 				71193B231E9DFC7C0026D228 /* XNBaseController.swift */,
+				714690081EAD9CE100118B87 /* XNBaseDetailVC.swift */,
+				7146900A1EAD9CFD00118B87 /* XNDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -573,6 +634,7 @@
 		71193B021E9DBB560026D228 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				71856E191EA0B37C0079FBD5 /* XNBaseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -605,6 +667,13 @@
 		71193B0D1E9DD44F0026D228 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				71193B331E9E20FA0026D228 /* CommonTool.swift */,
+				71193B341E9E20FA0026D228 /* const.swift */,
+				71193B351E9E20FA0026D228 /* Date+Extension.swift */,
+				71193B371E9E20FA0026D228 /* UIColor+imageColor.swift */,
+				71193B381E9E20FA0026D228 /* UITableView+GifRefreshHeader.swift */,
+				71193B391E9E20FA0026D228 /* UIView+ViewFrameGeometry.swift */,
+				71193B3A1E9E20FA0026D228 /* UIViewController+Extension.swift */,
 				71193B0E1E9DD44F0026D228 /* XNNetworkTool.swift */,
 			);
 			path = Network;
@@ -719,6 +788,7 @@
 		71193B201E9DFC4F0026D228 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				710B48101EA065770000D42D /* ChildVC */,
 				71193B251E9DFDD10026D228 /* XNNewsController.swift */,
 				71193B2F1E9E090E0026D228 /* XNNewsDetailController.swift */,
 			);
@@ -728,6 +798,7 @@
 		71193B211E9DFC4F0026D228 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				71856E1B1EA0B38E0079FBD5 /* XNNewsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -736,8 +807,19 @@
 			isa = PBXGroup;
 			children = (
 				71193B311E9E0BBD0026D228 /* XNNewsTopView.swift */,
+				710B480E1EA05F7D0000D42D /* XNNewsVCCell.swift */,
+				71856E151EA0B3060079FBD5 /* XNNewsCell_1.swift */,
+				71856E171EA0B3110079FBD5 /* XNNewsCell_2.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		71193B481E9E2AB40026D228 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				71193B491E9E2AC60026D228 /* XNBaseVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		7175F4C81E9CD67F0072C285 = {
@@ -812,6 +894,7 @@
 					7175F4D01E9CD67F0072C285 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y2TKYWJ5ZW;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -961,16 +1044,38 @@
 				71193B241E9DFC7C0026D228 /* XNBaseController.swift in Sources */,
 				71193B101E9DD44F0026D228 /* XNNetworkTool.swift in Sources */,
 				71193B281E9DFDFB0026D228 /* XNGreatestHitsController.swift in Sources */,
+				710B480F1EA05F7D0000D42D /* XNNewsVCCell.swift in Sources */,
 				71193B2C1E9DFE410026D228 /* XNCommunityController.swift in Sources */,
+				71856E181EA0B3110079FBD5 /* XNNewsCell_2.swift in Sources */,
+				714690091EAD9CE100118B87 /* XNBaseDetailVC.swift in Sources */,
 				7175F4D51E9CD67F0072C285 /* AppDelegate.swift in Sources */,
+				71193B3D1E9E20FA0026D228 /* Date+Extension.swift in Sources */,
 				71193B321E9E0BBD0026D228 /* XNNewsTopView.swift in Sources */,
 				71193B121E9DF6240026D228 /* XNNavigationController.swift in Sources */,
 				71193B2A1E9DFE1C0026D228 /* XNMineController.swift in Sources */,
+				71856E141EA0ADC70079FBD5 /* XNNewsBaseController.swift in Sources */,
+				710B48161EA06DFC0000D42D /* XNHandGameController.swift in Sources */,
+				71856E1C1EA0B38E0079FBD5 /* XNNewsModel.swift in Sources */,
+				710B48121EA06DE00000D42D /* XNHeadlineController.swift in Sources */,
 				71193B0F1E9DD44F0026D228 /* UIColor-Extension.swift in Sources */,
+				71193B3C1E9E20FA0026D228 /* const.swift in Sources */,
 				71193B0A1E9DC7A40026D228 /* XNTabBarController.swift in Sources */,
+				71856E161EA0B3060079FBD5 /* XNNewsCell_1.swift in Sources */,
 				71193B301E9E090E0026D228 /* XNNewsDetailController.swift in Sources */,
+				710B48141EA06DEF0000D42D /* XNNetGaemController.swift in Sources */,
+				710B481C1EA06E2A0000D42D /* XNStormController.swift in Sources */,
 				71193B2E1E9E02400026D228 /* XNCommon.swift in Sources */,
+				71193B4A1E9E2AC60026D228 /* XNBaseVM.swift in Sources */,
+				71193B411E9E20FA0026D228 /* UIView+ViewFrameGeometry.swift in Sources */,
+				71193B3B1E9E20FA0026D228 /* CommonTool.swift in Sources */,
+				7146900B1EAD9CFD00118B87 /* XNDetailController.swift in Sources */,
 				71193B261E9DFDD10026D228 /* XNNewsController.swift in Sources */,
+				71193B421E9E20FA0026D228 /* UIViewController+Extension.swift in Sources */,
+				71193B3F1E9E20FA0026D228 /* UIColor+imageColor.swift in Sources */,
+				71193B401E9E20FA0026D228 /* UITableView+GifRefreshHeader.swift in Sources */,
+				710B48181EA06E0B0000D42D /* XNMechineController.swift in Sources */,
+				71856E1A1EA0B37C0079FBD5 /* XNBaseModel.swift in Sources */,
+				710B481A1EA06E1E0000D42D /* XNECController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,11 +1180,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y2TKYWJ5ZW;
 				INFOPLIST_FILE = XNLovePlay_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.XNLovePlay-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1091,11 +1199,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y2TKYWJ5ZW;
 				INFOPLIST_FILE = XNLovePlay_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.XNLovePlay-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
